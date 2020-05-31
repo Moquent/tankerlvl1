@@ -12,7 +12,7 @@ function setup() {
 
     ground = new Ground(600,height,1200,20);
 
-    canon = new Canon(100, 350);
+    canon = new Canon(125, 350, 30, 200);
 
 }
 
@@ -27,5 +27,7 @@ function draw() {
 
 
 function keyReleased() {
-    // Call the shoot method for the cannon.
+    if(keydown(32))[
+        
+    ]
 }

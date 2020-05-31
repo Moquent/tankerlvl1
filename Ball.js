@@ -1,5 +1,5 @@
 class Ball {
-  constructor(x,y,radius) {
+  constructor(x,y) {
     var options ={
         frictionAir: 0,
         friction: 0,
